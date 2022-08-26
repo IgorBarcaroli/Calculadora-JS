@@ -1,0 +1,64 @@
+body{
+    background-color:lightsteelblue;
+    font-family:sans-serif;
+}
+
+/* Fundo da calculadora */
+.fundo{
+    width: 450px;
+    background-color:lightgrey;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    border:black solid 1px;
+}
+
+.teclado{
+  display: flex;
+}
+
+/* Tela da calculadora */
+.tela{
+  height:50px;
+  background-color:black;
+  color:white;
+  text-align: right;
+  font-size:xx-large;
+  margin: 30px auto 30px;
+  width: 90%;
+  justify-items: center;
+}
+
+/* Botões do teclado */
+.teclado button{
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border:black solid 1px;
+  border-radius:10px;
+  font-size: large;
+}
+
+/* Quando o cursor estiver em cima dos botões do teclado */
+.teclado button:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+
+
+.opcoes{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/* Botões com os números */
+.numeros button{
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border:black solid 1px;
+  border-radius: 10px;
+  font-size:large;
+}
+
